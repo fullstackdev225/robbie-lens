@@ -1,0 +1,29 @@
+//layout...
+@mixin flexbox{
+    display: flex;
+    justify-content: center;
+}
+
+//style...
+@mixin button($color-default: $color-primary){
+   border: 2px solid $color-default;
+   background-color: $color-default;
+   cursor: pointer;
+   text-transform: uppercase;
+   padding: 10px;
+   border-radius: 5px;
+   color: $color-tertiary;
+   text-decoration: none;
+   transition: all 300ms;
+}
+
+@mixin button-hover($color-default: $color-primary){
+    border-color: darken($color-default, 10);
+    background-color: darken($color-default, 10);
+}
+
+@mixin section-background($color: $color-secondary){
+    border: 2px solid $color;
+    background-color: $color;
+    padding: 30px;
+}

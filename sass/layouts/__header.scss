@@ -1,0 +1,38 @@
+.header{
+    border: 2px solid $color-primary;
+    background-color: $color-primary;
+
+    &__title{
+        margin-left: 100px;
+        color: $color-secondary;
+    }
+
+    .navbar{
+        float: right;
+        margin-top: -90px;
+        margin-right: 100px;
+
+        &__nav{
+            display: flex;
+
+            .nav__item{
+                list-style-type: none;
+
+                .nav__link{
+                    text-decoration: none;
+                    padding: 15px 20px;
+                    color: $color-tertiary;
+                    transition: color 350ms;
+
+                    &--active{
+                        color: $color-secondary;
+                    }
+
+                    &:hover{
+                        color: $color-secondary;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,21 @@
+.footer{
+     border: 2px solid $color-primary;
+     background-color: $color-primary;
+
+    &__title{
+        margin-left: 100px;
+        color: $color-secondary;
+    }
+
+    &__social{
+        float: right;
+        margin-top: -70px;
+        margin-right: 100px;
+
+        a{
+            &:hover{
+                opacity: 0.8;
+            }
+        }
+    }
+}
