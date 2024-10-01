@@ -64,6 +64,72 @@ body {
   padding: 5px;
 }
 
+.section-landscape h1 {
+  text-align: center;
+}
+.section-landscape .row {
+  display: flex;
+  justify-content: center;
+}
+.section-landscape .row .col {
+  padding: 5px;
+}
+.section-landscape .row .col a {
+  position: relative;
+}
+.section-landscape .row .col a .photo-hover {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  font-size: 1.2em;
+  display: none;
+  margin-top: -185px;
+}
+.section-landscape .row .col a:hover .photo-hover {
+  display: flex;
+}
+
+.section-portrait h1 {
+  text-align: center;
+}
+.section-portrait .row {
+  display: flex;
+  justify-content: center;
+}
+.section-portrait .row .col {
+  padding: 5px;
+}
+.section-portrait .row .col a {
+  position: relative;
+}
+.section-portrait .row .col a .photo-hover {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  font-size: 1.2em;
+  display: none;
+  margin-top: -435px;
+}
+.section-portrait .row .col a:hover .photo-hover {
+  display: flex;
+}
+
 .section-form {
   border: 2px solid rgb(26, 9, 34);
   background-color: rgb(26, 9, 34);
@@ -136,6 +202,50 @@ body {
   margin-top: -20px;
   color: #fff;
   font-size: 1.1em;
+}
+
+.section-about {
+  border: 2px solid rgb(26, 9, 34);
+  background-color: rgb(26, 9, 34);
+  padding: 30px;
+}
+.section-about h1 {
+  text-align: center;
+  color: rgb(153, 30, 210);
+  font-size: 3em;
+}
+.section-about h2 {
+  text-align: center;
+  color: #fff;
+}
+.section-about .text, .section-about ul {
+  margin-left: 300px;
+  font-size: 1.2em;
+  color: #fff;
+}
+.section-about .link {
+  text-align: center;
+}
+.section-about table {
+  margin: auto;
+  border-collapse: collapse;
+}
+.section-about table th, .section-about table td {
+  color: #fff;
+  border: 2px solid #fff;
+  padding: 30px;
+  font-size: 1.2em;
+}
+
+.section-title {
+  border: 2px solid rgb(26, 9, 34);
+  background-color: rgb(26, 9, 34);
+  padding: 30px;
+}
+.section-title h1 {
+  margin-left: 100px;
+  font-size: 3em;
+  color: rgb(153, 30, 210);
 }
 
 /*# sourceMappingURL=main.css.map */
