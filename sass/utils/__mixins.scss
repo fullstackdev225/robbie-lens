@@ -43,3 +43,15 @@
     font-size: 1.2em;
     display: none;
 }
+
+//responsive design...
+@mixin mobile-only{
+    @media screen and (max-width: map-get($breakpoints, mobile)){
+        @content;
+    }
+}
+
+@mixin responsive-layout{
+    flex-direction: column;
+    align-items: center;
+}

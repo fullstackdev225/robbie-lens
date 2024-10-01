@@ -53,6 +53,19 @@ body {
   color: rgb(26, 9, 34);
 }
 
+@media screen and (max-width: 767px) {
+  .header__title {
+    margin-left: 10px;
+  }
+  .header .navbar {
+    margin-top: -105px;
+    margin-right: 10px;
+  }
+  .header .navbar__nav {
+    flex-direction: column;
+    align-items: center;
+  }
+}
 .section-projects h1 {
   text-align: center;
 }
@@ -130,6 +143,29 @@ body {
   display: flex;
 }
 
+@media screen and (max-width: 767px) {
+  .section-projects .row {
+    flex-direction: column;
+    align-items: center;
+  }
+  .section-projects .row .col {
+    margin: 10px;
+  }
+  .section-landscape .row {
+    flex-direction: column;
+    align-items: center;
+  }
+  .section-landscape .row .col {
+    margin: 10px;
+  }
+  .section-portrait .row {
+    flex-direction: column;
+    align-items: center;
+  }
+  .section-portrait .row .col {
+    margin: 10px;
+  }
+}
 .section-form {
   border: 2px solid rgb(26, 9, 34);
   background-color: rgb(26, 9, 34);
@@ -165,6 +201,18 @@ body {
   width: 1020px;
 }
 
+@media screen and (max-width: 767px) {
+  .section-form .form__section {
+    flex-direction: column;
+    align-items: center;
+  }
+  .section-form .form__section .col {
+    margin: 10px;
+  }
+  .section-form .form__section .col .form__input {
+    width: 300px;
+  }
+}
 .footer {
   border: 2px solid rgb(153, 30, 210);
   background-color: rgb(153, 30, 210);
@@ -182,6 +230,14 @@ body {
   opacity: 0.8;
 }
 
+@media screen and (max-width: 767px) {
+  .footer__title {
+    margin-left: 10px;
+  }
+  .footer__social {
+    margin-right: 10px;
+  }
+}
 .section-introduce {
   border: 2px solid rgb(26, 9, 34);
   background-color: rgb(26, 9, 34);
@@ -204,6 +260,18 @@ body {
   font-size: 1.1em;
 }
 
+@media screen and (max-width: 767px) {
+  .section-introduce .row {
+    flex-direction: column;
+    align-items: center;
+  }
+  .section-introduce .row .col {
+    margin: 10px;
+  }
+  .section-introduce .row .col img {
+    width: 350px;
+  }
+}
 .section-about {
   border: 2px solid rgb(26, 9, 34);
   background-color: rgb(26, 9, 34);
@@ -237,6 +305,15 @@ body {
   font-size: 1.2em;
 }
 
+@media screen and (max-width: 767px) {
+  .section-about .text, .section-about ul {
+    margin-left: 70px;
+  }
+  .section-about table th, .section-about table td {
+    padding: 15px;
+    font-size: 1em;
+  }
+}
 .section-title {
   border: 2px solid rgb(26, 9, 34);
   background-color: rgb(26, 9, 34);

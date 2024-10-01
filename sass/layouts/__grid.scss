@@ -64,3 +64,35 @@
         }
     } 
 }
+
+@include mobile-only{
+    .section-projects{
+        .row{
+            @include responsive-layout;
+
+            .col{
+                margin: $margin-grid;
+            }
+        }
+    }
+
+    .section-landscape{
+        .row{
+            @include responsive-layout;
+
+            .col{
+                margin: $margin-grid;
+            }
+        }
+    }
+
+    .section-portrait{
+        .row{
+            @include responsive-layout;
+
+            .col{
+                margin: $margin-grid;
+            }
+        }
+    }
+}

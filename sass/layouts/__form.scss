@@ -39,3 +39,21 @@
         }
     }
 }
+
+@include mobile-only{
+    .section-form{
+        .form{
+            &__section{
+                @include responsive-layout;
+
+                .col{
+                    margin: $margin-grid;
+                    
+                    .form__input{
+                        width: 300px;
+                    }
+                }
+            }
+        }
+    }
+}

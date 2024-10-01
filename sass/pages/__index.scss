@@ -19,3 +19,18 @@
         }
     }
 }
+
+@include mobile-only{
+    .section-introduce{
+        .row{
+            @include responsive-layout;
+            .col{
+                margin: $margin-grid;
+
+                img{
+                    width: 350px;
+                }
+            }
+        }
+    }
+}

@@ -36,3 +36,20 @@
         }
     }
 }
+
+//responsive...
+@include mobile-only{
+    .header{
+        &__title{
+            margin-left: 10px;
+        }
+        .navbar{
+            margin-top: -105px;
+            margin-right: 10px;
+
+            &__nav{
+                @include responsive-layout;
+            }
+        }
+    }
+}
