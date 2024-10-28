@@ -1,0 +1,56 @@
+.header{
+    border: 2px solid $color-primary;
+    background-color: $color-primary;
+
+    &__title{
+        margin-left: 100px;
+        color: $color-secondary;
+    }
+
+    .navbar{
+        float: right;
+        margin-top: -90px;
+        margin-right: 100px;
+
+        &__nav{
+            display: flex;
+
+            .nav__item{
+                list-style-type: none;
+
+                .nav__link{
+                    color: $color-tertiary;
+                    padding: 15px 20px;
+                    text-decoration: none;
+                    transition: color 350ms;
+
+                    &:hover{
+                        color: $color-secondary;
+                    }
+
+                    &--active{
+                        color: $color-secondary;
+                    }
+                }
+            }
+        }
+    }
+}
+
+//responsive design...
+@include mobile-only{
+    .header{
+        &__title{
+            margin-left: 10px;
+        }
+
+        .navbar{
+            margin-right: 10px;
+            margin-top: -100px;
+            
+            &__nav{
+                flex-direction: column;
+            }
+        }
+    }
+}

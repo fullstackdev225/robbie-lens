@@ -1,0 +1,94 @@
+.section-projects{
+    h1{
+        text-align: center;
+    }
+
+    .row{
+        @include flexbox;
+
+        .col{
+            padding: $padding-grid;
+        }
+    }
+}
+
+.link__image{
+    position: relative;
+
+    .photo-hover{
+        @include photo-hover;
+    }
+
+    &:hover .photo-hover{
+         display: flex;
+    }
+}
+
+.section-landscape{
+    h1{
+        text-align: center;
+    }
+
+    .row{
+        @include flexbox;
+
+        .col{
+            padding: $padding-grid;
+
+            .photo-hover{
+                margin-top: -185px;
+            }
+        }
+    }
+}
+
+.section-portrait{
+    h1{
+        text-align: center;
+    }
+
+    .row{
+        @include flexbox;
+
+        .col{
+            padding: $padding-grid;
+
+            .photo-hover{
+               margin-top: -435px;
+            }
+        }
+    }
+}
+
+//responsive design...
+@include mobile-only{
+    .section-projects{
+        .row{
+            @include flexbox-responsive;
+
+            .col{
+                margin: $margin-grid;
+            }
+        }
+    }
+
+    .section-landscape{
+        .row{
+            @include flexbox-responsive;
+
+            .col{
+                margin: $margin-grid;
+            }
+        }
+    }
+
+    .section-portrait{
+        .row{
+            @include flexbox-responsive;
+
+            .col{
+                margin: $margin-grid;
+            }
+        }
+    }
+}

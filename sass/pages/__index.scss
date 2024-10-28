@@ -1,0 +1,41 @@
+.section-introduce{
+    border: 2px solid $color-secondary;
+    background-color: $color-secondary;
+    padding: 30px;
+
+    .row{
+        @include flexbox;
+
+        .col{
+            padding: $padding-grid;
+
+            h1{
+                font-size: 3em;
+                color: $color-primary;
+            }
+
+            p{
+                color: $color-tertiary;
+                font-size: 1.1em;
+            }
+        }
+    }
+}
+
+//responsive design...
+
+@include mobile-only{
+    .section-introduce{
+        .row{
+            @include flexbox-responsive;
+
+            .col{
+                margin: $margin-grid;
+
+                img{
+                    width: 350px;
+                }
+            }
+        }
+    }
+}
