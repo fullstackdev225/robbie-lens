@@ -251,6 +251,49 @@ body {
     width: 350px;
   }
 }
+.section-about {
+  border: 2px solid rgb(22, 5, 40);
+  background-color: rgb(22, 5, 40);
+  padding: 30px;
+}
+.section-about h1 {
+  text-align: center;
+  color: rgb(106, 18, 199);
+  font-size: 3em;
+}
+.section-about h2 {
+  color: #fff;
+  text-align: center;
+}
+.section-about .text, .section-about ul {
+  margin-left: 300px;
+  color: #fff;
+  font-size: 1.2em;
+}
+.section-about .link {
+  text-align: center;
+}
+.section-about table {
+  border-collapse: collapse;
+  margin: auto;
+}
+.section-about table th, .section-about table td {
+  border: 2px solid #fff;
+  color: #fff;
+  padding: 30px;
+  font-size: 1.2em;
+}
+
+@media screen and (max-width: 797px) {
+  .section-about .text, .section-about ul {
+    margin-left: 50px;
+    font-size: 1em;
+  }
+  .section-about table th, .section-about table td {
+    padding: 15px;
+    font-size: 0.8em;
+  }
+}
 .section-title {
   border: 2px solid rgb(22, 5, 40);
   background-color: rgb(22, 5, 40);
