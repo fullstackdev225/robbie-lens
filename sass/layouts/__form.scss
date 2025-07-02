@@ -1,0 +1,42 @@
+.section-form{
+    @include section-background;
+
+    h1{
+        text-align: center;
+        color: $color-primary;
+    }
+
+    .form{
+        .row{
+            display: flex;
+            justify-content: center;
+
+            .col{
+                margin: 8px;
+
+                .form__label{
+                    color: #fff;
+                }
+
+                .form__input{
+                    outline: none;
+                    padding: 3px;
+
+                    &:focus{
+                        border: 2px solid $color-primary;
+                    }
+                }
+
+                input{
+                    width: 500px;
+                }
+
+                textarea{
+                    width: 1020px;
+                }
+            }
+        }
+    }
+
+    
+}

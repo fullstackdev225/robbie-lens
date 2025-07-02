@@ -1,0 +1,27 @@
+@mixin head-foot{
+    border: 2px solid $color-primary;
+    background-color: $color-primary;
+}
+
+@mixin button-style($color-default : $color-primary){
+    text-decoration: none;
+    color: $color-tertiary;
+    border: 2px solid $color-default;
+    background-color: $color-default;
+    padding: 10px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 300ms;
+}
+
+@mixin transition-button{
+    background-color: darken($color-primary, 10);
+    border-color: darken($color-primary, 10);
+}
+
+@mixin section-background{
+    border: 2px solid $color-secondary;
+    background-color: $color-secondary;
+    padding: 20px;
+}

@@ -1,3 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+body {
+  font-family: "Roboto";
+  margin: 0px;
+  padding: 0px;
+}
 
+.btn {
+  text-decoration: none;
+  color: #fff;
+  border: 2px solid rgb(18, 108, 182);
+  background-color: rgb(18, 108, 182);
+  padding: 10px;
+  text-transform: uppercase;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 300ms;
+}
+.btn:hover {
+  background-color: rgb(13.41, 80.46, 135.59);
+  border-color: rgb(13.41, 80.46, 135.59);
+}
+
+.header {
+  border: 2px solid rgb(18, 108, 182);
+  background-color: rgb(18, 108, 182);
+}
+.header__title {
+  margin-left: 150px;
+  color: rgb(9, 9, 71);
+}
+.header .navbar {
+  float: right;
+  margin-top: -90px;
+  margin-right: 100px;
+}
+.header .navbar__nav {
+  display: flex;
+}
+.header .navbar__nav .nav__item {
+  list-style-type: none;
+}
+.header .navbar__nav .nav__item .nav__link {
+  color: #fff;
+  text-decoration: none;
+  padding: 15px 20px;
+  transition: color 250ms;
+}
+.header .navbar__nav .nav__item .nav__link--active {
+  color: rgb(9, 9, 71);
+  text-decoration: none;
+}
+.header .navbar__nav .nav__item .nav__link:hover {
+  color: rgb(9, 9, 71);
+}
+
+.section-project h1 {
+  text-align: center;
+}
+.section-project .row {
+  display: flex;
+  justify-content: center;
+}
+.section-project .row .col {
+  margin: 8px;
+}
+
+.section-form {
+  border: 2px solid rgb(9, 9, 71);
+  background-color: rgb(9, 9, 71);
+  padding: 20px;
+}
+.section-form h1 {
+  text-align: center;
+  color: rgb(18, 108, 182);
+}
+.section-form .form .row {
+  display: flex;
+  justify-content: center;
+}
+.section-form .form .row .col {
+  margin: 8px;
+}
+.section-form .form .row .col .form__label {
+  color: #fff;
+}
+.section-form .form .row .col .form__input {
+  outline: none;
+  padding: 3px;
+}
+.section-form .form .row .col .form__input:focus {
+  border: 2px solid rgb(18, 108, 182);
+}
+.section-form .form .row .col input {
+  width: 500px;
+}
+.section-form .form .row .col textarea {
+  width: 1020px;
+}
+
+.footer {
+  border: 2px solid rgb(18, 108, 182);
+  background-color: rgb(18, 108, 182);
+}
+.footer__title {
+  color: rgb(9, 9, 71);
+  margin-left: 150px;
+}
+.footer__social {
+  float: right;
+  margin-top: -75px;
+  margin-right: 100px;
+}
+
+.section-introduce {
+  border: 2px solid rgb(9, 9, 71);
+  background-color: rgb(9, 9, 71);
+  padding: 20px;
+}
+.section-introduce .row {
+  display: flex;
+  justify-content: center;
+}
+.section-introduce .row .col {
+  margin: 8px;
+}
+.section-introduce .row .col h1 {
+  font-size: 3em;
+  color: rgb(18, 108, 182);
+}
+.section-introduce .row .col p {
+  color: #fff;
+  font-size: 1.1em;
+}
 
 /*# sourceMappingURL=main.css.map */

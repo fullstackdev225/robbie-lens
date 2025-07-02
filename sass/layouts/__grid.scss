@@ -1,0 +1,14 @@
+.section-project{
+    h1{
+        text-align: center;
+    }
+
+    .row{
+        display: flex;
+        justify-content: center;
+
+        .col{
+            margin: 8px;
+        }
+    }
+}

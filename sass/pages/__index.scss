@@ -1,0 +1,21 @@
+.section-introduce{
+    @include section-background;
+
+    .row{
+        display: flex;
+        justify-content: center;
+
+        .col{
+            margin: 8px;
+            h1{
+                font-size: 3em;
+                color: $color-primary;
+            }
+
+            p{
+                color: $color-tertiary;
+                font-size: 1.1em;
+            }
+        }
+    }
+}
