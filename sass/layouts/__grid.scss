@@ -4,11 +4,64 @@
     }
 
     .row{
-        display: flex;
-        justify-content: center;
+        @include flexbox;
 
         .col{
-            margin: 8px;
+            margin: $margin-grid;
+        }
+    }
+}
+
+.section-landscape{
+    h1{
+        text-align: center;
+    }
+
+    .row{
+        @include flexbox;
+
+        .col{
+            margin: $margin-grid;
+
+            a{
+                position: relative;
+
+                .photo-hover{
+                    @include photo-hover;
+                    margin-top: -185px;
+                }
+
+                 &:hover .photo-hover{
+                    display: flex;
+                }
+            }
+        }
+    }
+}
+
+.section-portrait{
+    h1{
+        text-align: center;
+    }
+
+    .row{
+        @include flexbox;
+
+        .col{
+            margin: $margin-grid;
+
+            a{
+                position: relative;
+
+                .photo-hover{
+                    @include photo-hover;
+                    margin-top: -435px;
+                }
+
+                &:hover .photo-hover{
+                    display: flex;
+                }
+            }
         }
     }
 }

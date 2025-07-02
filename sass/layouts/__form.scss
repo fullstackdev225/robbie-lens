@@ -8,11 +8,10 @@
 
     .form{
         .row{
-            display: flex;
-            justify-content: center;
+            @include flexbox;
 
             .col{
-                margin: 8px;
+                margin: $margin-grid;
 
                 .form__label{
                     color: #fff;

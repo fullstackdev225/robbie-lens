@@ -25,3 +25,25 @@
     background-color: $color-secondary;
     padding: 20px;
 }
+
+@mixin flexbox{
+    display: flex;
+    justify-content: center;
+}
+
+@mixin photo-hover{
+     position: absolute;
+     top: 0;
+     bottom: 0;
+     right: 0;
+     left: 0;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     border: 1px solid rgba(0, 0, 0, 0.6);
+     background-color: rgba(0, 0, 0, 0.6);
+     font-size: 1.3em;
+     color: $color-tertiary;
+     margin-bottom: 3px;
+     display: none;
+}
