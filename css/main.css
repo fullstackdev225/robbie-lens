@@ -133,4 +133,37 @@ body {
   font-size: 1.1em;
 }
 
+.section-about {
+  border: 2px solid rgb(9, 9, 71);
+  background-color: rgb(9, 9, 71);
+  padding: 20px;
+}
+.section-about h1 {
+  text-align: center;
+  color: rgb(18, 108, 182);
+  font-size: 3em;
+}
+.section-about h2 {
+  text-align: center;
+  color: rgb(18, 108, 182);
+}
+.section-about .text, .section-about ul {
+  margin-left: 300px;
+  color: #fff;
+  font-size: 1.1em;
+}
+.section-about .portfolio-link {
+  text-align: center;
+}
+.section-about table {
+  border-collapse: collapse;
+  margin: auto;
+}
+.section-about table th, .section-about table td {
+  border: 2px solid #fff;
+  color: #fff;
+  padding: 50px;
+  font-size: 1.2em;
+}
+
 /*# sourceMappingURL=main.css.map */
