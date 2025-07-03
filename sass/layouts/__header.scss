@@ -36,3 +36,25 @@
         }
     }
 }
+
+//responsive design...
+@include mobileOnly{
+    .header{
+        &__title{
+            margin-left: 10px;
+        }
+
+        .navbar{
+            margin-right: 10px;
+
+            &__nav{
+                @include flexboxResponsive;
+                margin-top: -5px;
+                
+                .nav__link{
+                    padding: 5px 10px;
+                }               
+             }
+        }
+    }
+}

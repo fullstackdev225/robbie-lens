@@ -19,3 +19,20 @@
         }
     }
 }
+
+//responsive design...
+@include mobileOnly{
+    .section-introduce{
+        .row{
+            @include flexboxResponsive;
+
+            .col{
+                padding: 8px;
+
+                img{
+                    width: 300px;
+                }
+            }
+        }
+    }
+}

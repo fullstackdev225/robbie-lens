@@ -47,3 +47,14 @@
      margin-bottom: 3px;
      display: none;
 }
+
+@mixin mobileOnly{
+    @media screen and (max-width: map-get($breakpoints, mobile)){
+        @content;
+    }
+}
+
+@mixin flexboxResponsive{
+    flex-direction: column;
+    align-items: center;
+}

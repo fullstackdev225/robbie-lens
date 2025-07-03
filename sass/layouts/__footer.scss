@@ -12,3 +12,16 @@
         margin-right: 100px;
     }
 }
+
+//responsive design...
+@include mobileOnly{
+    .footer{
+        &__title{
+            margin-left: 10px;
+        }
+
+        &__social{
+            margin-right: 10px;
+        }
+    }
+}
