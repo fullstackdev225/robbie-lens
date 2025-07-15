@@ -1,0 +1,14 @@
+.footer{
+    @include head-foot;
+    
+    &__title{
+        margin-left: 100px;
+        color: $color-secondary;
+    }
+
+    &__social{
+        float: right;
+        margin-top: -70px;
+        margin-right: 100px;
+    }
+}

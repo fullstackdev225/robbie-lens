@@ -1,0 +1,21 @@
+.section-introduce{
+    @include background-section;
+
+   .row{
+      @include flexbox;
+
+      .col{
+        margin: $margin-grid;
+
+        h1{
+            font-size: 3em;
+            color: $color-primary;
+        }
+
+        p{
+            color: $color-tertiary;
+            font-size: 1.2em;
+        }
+      }
+   } 
+}

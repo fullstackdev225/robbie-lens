@@ -1,0 +1,7 @@
+.btn{
+    @include button;
+
+    &:hover{
+        @include button-transition;
+    }
+}
