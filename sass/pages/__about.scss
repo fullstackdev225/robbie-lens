@@ -1,0 +1,40 @@
+.section-about{
+    @include background-section;
+
+    h1{
+        text-align: center;
+        color: $color-primary;
+        font-size: 3em;
+    }
+
+    h2{
+        text-align: center;
+        color: $color-tertiary;
+    }
+
+    .link-portfolio{
+        text-align: center;
+    }
+
+    .text{
+        margin-left: 300px;
+        color: $color-tertiary;
+        font-size: 1.2em;
+    }
+
+    ul{
+        @extend .text;
+    }
+
+    table{
+        border-collapse: collapse;
+        margin: auto;
+
+        th,td{
+          border: 3px solid $color-tertiary;
+          padding: 50px;
+          color: $color-tertiary;
+          font-size: 1.2em; 
+        }
+    }
+}
