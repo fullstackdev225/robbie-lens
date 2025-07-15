@@ -30,3 +30,19 @@
     border-color: darken($color-default, 10);
     background-color: darken($color-default, 10);
 }
+
+@mixin photo-hover{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    border: 0px solid rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: $color-tertiary;
+    font-size: 1.2em;
+    display: none;
+}

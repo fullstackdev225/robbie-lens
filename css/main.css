@@ -64,6 +64,74 @@ body {
   margin: 8px;
 }
 
+.section-landscape h1 {
+  text-align: center;
+}
+.section-landscape .row {
+  display: flex;
+  justify-content: center;
+}
+.section-landscape .row .col {
+  margin: 8px;
+}
+.section-landscape .row .col a {
+  position: relative;
+}
+.section-landscape .row .col a .photo-hover {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  border: 0px solid rgba(0, 0, 0, 0.6);
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 1.2em;
+  display: none;
+  margin-top: -187px;
+  margin-bottom: 3px;
+}
+.section-landscape .row .col a:hover .photo-hover {
+  display: flex;
+}
+
+.section-portrait h1 {
+  text-align: center;
+}
+.section-portrait .row {
+  display: flex;
+  justify-content: center;
+}
+.section-portrait .row .col {
+  margin: 8px;
+}
+.section-portrait .row .col a {
+  position: relative;
+}
+.section-portrait .row .col a .photo-hover {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  border: 0px solid rgba(0, 0, 0, 0.6);
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 1.2em;
+  display: none;
+  margin-top: -437px;
+  margin-bottom: 3px;
+}
+.section-portrait .row .col a:hover .photo-hover {
+  display: flex;
+}
+
 .section-form {
   border: 2px solid rgb(11, 41, 53);
   background-color: rgb(11, 41, 53);
@@ -162,6 +230,16 @@ body {
   padding: 50px;
   color: #fff;
   font-size: 1.2em;
+}
+
+.section-portfolio {
+  border: 2px solid rgb(11, 41, 53);
+  background-color: rgb(11, 41, 53);
+}
+.section-portfolio h1 {
+  margin-left: 100px;
+  color: rgb(32, 143, 187);
+  font-size: 3em;
 }
 
 /*# sourceMappingURL=main.css.map */
