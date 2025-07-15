@@ -67,3 +67,36 @@
         }
     }
 }
+
+//resposive design...
+@include mobileOnly{
+    .section-project{
+    .row{
+        @include flexbox-responsive;
+
+        .col{
+            padding: $padding-grid;
+        }
+    }
+}
+
+.section-landscape{
+    .row{
+        @include flexbox-responsive;
+
+        .col{
+            padding: $padding-grid;
+        }
+    }
+}
+
+.section-portrait{
+    .row{
+        @include flexbox-responsive;
+
+        .col{
+            padding: $padding-grid;
+        }
+    }
+}
+}

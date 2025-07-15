@@ -36,3 +36,22 @@
         }
     }
 }
+
+//responsive design...
+@include mobileOnly{
+    .section-form{
+        .form{
+            .row{
+                @include flexbox-responsive;
+
+                .col{
+                   padding: $padding-grid; 
+
+                   .form__input{
+                       width: 300px;
+                   }
+                }
+            }
+        }
+    }
+}

@@ -38,3 +38,19 @@
         }
     }
 }
+
+//responsive...
+@include mobileOnly{
+    .section-about{
+        .text{
+            margin-left: 80px;
+        }
+
+        table{
+           td,th{
+            padding: 12px;
+            font-size: 1em;
+           }
+        }
+    }
+}

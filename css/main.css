@@ -53,6 +53,18 @@ body {
   color: rgb(11, 41, 53);
 }
 
+@media screen and (max-width: 768px) {
+  .header__title {
+    margin-left: 10px;
+  }
+  .header .navbar {
+    margin-right: 10px;
+    margin-top: -105px;
+  }
+  .header .navbar__nav {
+    flex-direction: column;
+  }
+}
 .section-project h1 {
   text-align: center;
 }
@@ -132,6 +144,29 @@ body {
   display: flex;
 }
 
+@media screen and (max-width: 768px) {
+  .section-project .row {
+    flex-direction: column;
+    align-items: center;
+  }
+  .section-project .row .col {
+    padding: 8px;
+  }
+  .section-landscape .row {
+    flex-direction: column;
+    align-items: center;
+  }
+  .section-landscape .row .col {
+    padding: 8px;
+  }
+  .section-portrait .row {
+    flex-direction: column;
+    align-items: center;
+  }
+  .section-portrait .row .col {
+    padding: 8px;
+  }
+}
 .section-form {
   border: 2px solid rgb(11, 41, 53);
   background-color: rgb(11, 41, 53);
@@ -164,6 +199,18 @@ body {
   width: 1020px;
 }
 
+@media screen and (max-width: 768px) {
+  .section-form .form .row {
+    flex-direction: column;
+    align-items: center;
+  }
+  .section-form .form .row .col {
+    padding: 8px;
+  }
+  .section-form .form .row .col .form__input {
+    width: 300px;
+  }
+}
 .footer {
   border: 2px solid rgb(32, 143, 187);
   background-color: rgb(32, 143, 187);
@@ -178,6 +225,14 @@ body {
   margin-right: 100px;
 }
 
+@media screen and (max-width: 768px) {
+  .footer__title {
+    margin-left: 10px;
+  }
+  .footer__social {
+    margin-right: 10px;
+  }
+}
 .section-introduce {
   border: 2px solid rgb(11, 41, 53);
   background-color: rgb(11, 41, 53);
@@ -199,6 +254,18 @@ body {
   font-size: 1.2em;
 }
 
+@media screen and (max-width: 768px) {
+  .section-introduce .row {
+    flex-direction: column;
+    align-items: center;
+  }
+  .section-introduce .row .col {
+    padding: 8px;
+  }
+  .section-introduce .row .col img {
+    width: 300px;
+  }
+}
 .section-about {
   border: 2px solid rgb(11, 41, 53);
   background-color: rgb(11, 41, 53);
@@ -232,6 +299,15 @@ body {
   font-size: 1.2em;
 }
 
+@media screen and (max-width: 768px) {
+  .section-about .text, .section-about ul {
+    margin-left: 80px;
+  }
+  .section-about table td, .section-about table th {
+    padding: 12px;
+    font-size: 1em;
+  }
+}
 .section-portfolio {
   border: 2px solid rgb(11, 41, 53);
   background-color: rgb(11, 41, 53);
