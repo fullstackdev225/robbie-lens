@@ -1,3 +1,175 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto";
+}
 
+.btn {
+  border: 2px solid rgb(84, 15, 196);
+  background-color: rgb(84, 15, 196);
+  padding: 10px;
+  border-radius: 5px;
+  color: #fff;
+  text-transform: uppercase;
+  cursor: pointer;
+  text-decoration: none;
+  transition: all 300ms;
+}
+.btn:hover {
+  border-color: rgb(63.6966824645, 11.3744075829, 148.6255924171);
+  background-color: rgb(63.6966824645, 11.3744075829, 148.6255924171);
+}
+
+.header {
+  border: 2px solid rgb(84, 15, 196);
+  background-color: rgb(84, 15, 196);
+}
+.header__title {
+  margin-left: 100px;
+  color: rgb(23, 7, 52);
+}
+.header .navbar {
+  float: right;
+  margin-top: -90px;
+  margin-right: 100px;
+}
+.header .navbar__nav {
+  display: flex;
+}
+.header .navbar__nav .nav__item {
+  list-style-type: none;
+}
+.header .navbar__nav .nav__item .nav__link {
+  text-decoration: none;
+  color: #fff;
+  padding: 15px 20px;
+  transition: color 300ms;
+}
+.header .navbar__nav .nav__item .nav__link--active {
+  color: rgb(23, 7, 52);
+}
+.header .navbar__nav .nav__item .nav__link:hover {
+  color: rgb(23, 7, 52);
+}
+
+.section-grid h1 {
+  text-align: center;
+}
+.section-grid .row {
+  display: flex;
+  justify-content: center;
+}
+.section-grid .row .col {
+  padding: 8px;
+}
+
+.section-form {
+  border: 2px solid rgb(23, 7, 52);
+  background-color: rgb(23, 7, 52);
+  padding: 30px;
+}
+.section-form h1 {
+  text-align: center;
+  color: rgb(84, 15, 196);
+}
+.section-form .form .row {
+  display: flex;
+  justify-content: center;
+}
+.section-form .form .row .col {
+  padding: 8px;
+}
+.section-form .form .row .col .form__label {
+  color: #fff;
+}
+.section-form .form .row .col input {
+  width: 500px;
+  padding: 3px;
+  color: rgb(84, 15, 196);
+  font-weight: bold;
+}
+.section-form .form .row .col textarea {
+  width: 1020px;
+  color: rgb(84, 15, 196);
+  font-weight: bold;
+}
+.section-form .form .row .col .form__input {
+  outline: none;
+}
+.section-form .form .row .col .form__input:focus {
+  border: 2px solid rgb(84, 15, 196);
+}
+
+.footer {
+  border: 2px solid rgb(84, 15, 196);
+  background-color: rgb(84, 15, 196);
+}
+.footer__title {
+  margin-left: 100px;
+  color: rgb(23, 7, 52);
+}
+.footer__social {
+  float: right;
+  margin-top: -70px;
+  margin-right: 100px;
+}
+.footer__social a:hover {
+  opacity: 0.8;
+}
+
+.introduce {
+  border: 2px solid rgb(23, 7, 52);
+  background-color: rgb(23, 7, 52);
+  padding: 30px;
+}
+.introduce .row {
+  display: flex;
+  justify-content: center;
+}
+.introduce .row .col {
+  padding: 8px;
+}
+.introduce .row .col h1 {
+  color: rgb(84, 15, 196);
+  font-size: 3em;
+}
+.introduce .row .col p {
+  color: #fff;
+  font-size: 1.2em;
+}
+
+.section-about {
+  border: 2px solid rgb(23, 7, 52);
+  background-color: rgb(23, 7, 52);
+  padding: 30px;
+}
+.section-about h1 {
+  color: rgb(84, 15, 196);
+  text-align: center;
+  font-size: 3em;
+}
+.section-about .text, .section-about ul {
+  margin-left: 300px;
+  color: #fff;
+  font-size: 1.2em;
+}
+.section-about h2 {
+  color: #fff;
+  text-align: center;
+}
+.section-about .link {
+  text-align: center;
+}
+.section-about table {
+  border-collapse: collapse;
+  margin: auto;
+}
+.section-about table th, .section-about table td {
+  border: 2px solid #fff;
+  padding: 80px;
+  font-size: 1.3em;
+  color: #fff;
+}
 
 /*# sourceMappingURL=main.css.map */
