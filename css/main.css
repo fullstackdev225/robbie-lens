@@ -64,6 +64,74 @@ body {
   padding: 8px;
 }
 
+.section-landscape h1 {
+  text-align: center;
+}
+.section-landscape .row {
+  display: flex;
+  justify-content: center;
+}
+.section-landscape .row .col {
+  padding: 8px;
+}
+.section-landscape .row .col a {
+  position: relative;
+}
+.section-landscape .row .col a .photo-hover {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid rgba(0, 0, 0, 0.8);
+  background-color: rgba(0, 0, 0, 0.8);
+  font-size: 1.3em;
+  color: #fff;
+  margin-bottom: 2px;
+  display: none;
+  margin-top: -185px;
+}
+.section-landscape .row .col a:hover .photo-hover {
+  display: flex;
+}
+
+.section-portrait h1 {
+  text-align: center;
+}
+.section-portrait .row {
+  display: flex;
+  justify-content: center;
+}
+.section-portrait .row .col {
+  padding: 8px;
+}
+.section-portrait .row .col a {
+  position: relative;
+}
+.section-portrait .row .col a .photo-hover {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid rgba(0, 0, 0, 0.8);
+  background-color: rgba(0, 0, 0, 0.8);
+  font-size: 1.3em;
+  color: #fff;
+  margin-bottom: 2px;
+  display: none;
+  margin-top: -435px;
+}
+.section-portrait .row .col a:hover .photo-hover {
+  display: flex;
+}
+
 .section-form {
   border: 2px solid rgb(23, 7, 52);
   background-color: rgb(23, 7, 52);
@@ -170,6 +238,16 @@ body {
   padding: 80px;
   font-size: 1.3em;
   color: #fff;
+}
+
+.section-title {
+  border: 2px solid rgb(23, 7, 52);
+  background-color: rgb(23, 7, 52);
+}
+.section-title h1 {
+  color: rgb(84, 15, 196);
+  font-size: 3em;
+  margin-left: 100px;
 }
 
 /*# sourceMappingURL=main.css.map */

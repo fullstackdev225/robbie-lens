@@ -1,0 +1,10 @@
+.section-title{
+    border: 2px solid $color-secondary;
+    background-color: $color-secondary;
+
+    h1{
+        color: $color-primary;
+        font-size: $title-size;
+        margin-left: 100px;
+    }
+}
