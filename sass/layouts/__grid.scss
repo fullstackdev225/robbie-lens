@@ -66,3 +66,37 @@
         }
     }
 }
+
+/* responsive design */
+
+@include mobile-only{
+    .section-grid{
+        .row{
+            @include flexbox-grid;
+
+            .col{
+                margin: $margin-grid;
+            }
+        }
+    }
+
+    .section-landscape{
+        .row{
+            @include flexbox-grid;
+
+            .col{
+                margin: $margin-grid;
+            }
+        }
+    }
+
+    .section-portrait{
+        .row{
+            @include flexbox-grid;
+
+            .col{
+                margin: $margin-grid;
+            }
+        }
+    }
+}

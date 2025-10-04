@@ -38,3 +38,21 @@
         }
     }
 }
+
+/* responsive design */
+
+@include mobile-only{
+    .section-about{
+        .text{
+            margin-left: 60px;
+            font-size: 1em;
+        }
+
+        table{
+            th,td{
+                padding: 16px;
+                font-size: 1em;
+            }
+        }
+    }
+}

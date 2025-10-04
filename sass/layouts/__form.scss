@@ -41,3 +41,23 @@
         }
     }
 }
+
+/* responsive design */
+
+@include mobile-only{
+    .section-form{
+        .form{
+            .row{
+                @include flexbox-grid;
+
+                .col{
+                    margin: $margin-grid;
+
+                    .form__input{
+                        width: 300px;
+                    }
+                }
+            }
+        }
+    }
+}
