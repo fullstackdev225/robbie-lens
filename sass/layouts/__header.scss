@@ -1,0 +1,37 @@
+.header{
+    @include head-foot;
+
+    &__title{
+        margin-left: 100px;
+        color: $color-secondary;
+    }
+
+    .navbar{
+        float: right;
+        margin-top: -90px;
+        margin-right: 100px;
+
+        &__nav{
+            display: flex;
+
+            .nav__item{
+                list-style-type: none;
+
+                .nav__link{
+                    padding: 20px 30px;
+                    color: $color-tertiary;
+                    text-decoration: none;
+                    transition: color 350ms;
+
+                    &:hover{
+                        color: $color-secondary;
+                    }
+
+                    &--active{
+                        color: $color-secondary;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,55 @@
+@mixin flexbox{
+    display: flex;
+    justify-content: center;
+}
+
+@mixin head-foot{
+    border: 2px solid $color-primary;
+    background-color: $color-primary;
+}
+
+@mixin section-background{
+    border: 2px solid $color-secondary;
+    background-color: $color-secondary;
+    padding: 30px;
+}
+
+@mixin button($color){
+    border: 2px solid $color;
+    background-color: $color;
+    text-transform: uppercase;
+    text-decoration: none;
+    cursor: pointer;
+    color: $color-tertiary;
+    padding: 10px;
+    border-radius: 5px;
+    transition: all 350ms;
+}
+
+@mixin button-hover($color){
+    border-color: darken($color, 10);
+    background-color: darken($color, 10);
+}
+
+@mixin text-style{
+    margin-left: 300px;
+    color: $color-tertiary;
+    font-size: 1.2em;
+}
+
+@mixin photo-hover{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 1.3em;
+    border: 2px solid rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 0.8);
+    margin-bottom: 3px;
+    display: none;
+}

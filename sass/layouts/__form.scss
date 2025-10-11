@@ -1,0 +1,38 @@
+.form-contact{
+    @include section-background;
+
+    h1{
+        text-align: center;
+        color: $color-primary
+    }
+
+    .row{
+        @include flexbox;
+
+        .col{
+            padding: $padding-layout;
+
+            .form__label{
+                color: $color-tertiary;
+            }
+
+            input{
+                width: 500px;
+            }
+
+            textarea{
+                width: 1020px;
+            }
+
+            .form__input{
+                outline: none;
+                color: $color-primary;
+                font-weight: bold;
+
+                &:focus{
+                    border: 2px solid $color-primary;
+                }
+            }
+        }
+    }
+}
