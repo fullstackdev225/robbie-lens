@@ -36,3 +36,24 @@
         }
     }
 }
+
+//responsive design...
+
+@include mobile-only{
+    .form-contact{
+        .form{
+            .row{
+                @include flexbox-responsive;
+
+                .col{
+                    margin: $margin-layout;
+
+                   .form__input{
+                       width: 300px;
+                   }
+
+                }
+            }
+        }
+    }
+}

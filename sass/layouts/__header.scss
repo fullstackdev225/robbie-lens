@@ -35,3 +35,21 @@
         }
     }
 }
+
+// responsive design...
+
+@include mobile-only{
+    .header{
+        &__title{
+            margin-left: 10px;
+        }
+        .navbar{
+            margin-top: -110px;
+            margin-right: 10px;
+
+            &__nav{
+                flex-direction: column;
+            }
+        }
+    }
+}

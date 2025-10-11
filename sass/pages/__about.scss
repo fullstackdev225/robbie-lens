@@ -38,3 +38,25 @@
         }
     }
 }
+
+//responsive design...
+
+@include mobile-only{
+    .about{
+        &__text{
+            @include text-responsive;
+        }
+
+        ul{
+            @include text-responsive;
+        }
+
+        table{
+
+            th,td{
+                font-size: 1em;
+                padding: 10px;
+            }
+        }
+    }
+}

@@ -53,6 +53,18 @@ body {
   color: rgb(39, 10, 56);
 }
 
+@media screen and (max-width: 768px) {
+  .header__title {
+    margin-left: 10px;
+  }
+  .header .navbar {
+    margin-top: -110px;
+    margin-right: 10px;
+  }
+  .header .navbar__nav {
+    flex-direction: column;
+  }
+}
 .project h1 {
   text-align: center;
 }
@@ -132,6 +144,29 @@ body {
   display: flex;
 }
 
+@media screen and (max-width: 768px) {
+  .project .row {
+    flex-direction: column;
+    align-items: center;
+  }
+  .project .row .col {
+    margin: 5px;
+  }
+  .landscape .row {
+    flex-direction: column;
+    align-items: center;
+  }
+  .landscape .row .col {
+    margin: 5px;
+  }
+  .portrait .row {
+    flex-direction: column;
+    align-items: center;
+  }
+  .portrait .row .col {
+    margin: 5px;
+  }
+}
 .form-contact {
   border: 2px solid rgb(39, 10, 56);
   background-color: rgb(39, 10, 56);
@@ -166,6 +201,18 @@ body {
   border: 2px solid rgb(111, 8, 170);
 }
 
+@media screen and (max-width: 768px) {
+  .form-contact .form .row {
+    flex-direction: column;
+    align-items: center;
+  }
+  .form-contact .form .row .col {
+    margin: 5px;
+  }
+  .form-contact .form .row .col .form__input {
+    width: 300px;
+  }
+}
 .footer {
   border: 2px solid rgb(111, 8, 170);
   background-color: rgb(111, 8, 170);
@@ -183,6 +230,14 @@ body {
   opacity: 0.8;
 }
 
+@media screen and (max-width: 768px) {
+  .footer__title {
+    margin-left: 10px;
+  }
+  .footer__social {
+    margin-right: 10px;
+  }
+}
 .introduce {
   border: 2px solid rgb(39, 10, 56);
   background-color: rgb(39, 10, 56);
@@ -204,6 +259,18 @@ body {
   font-size: 1.1em;
 }
 
+@media screen and (max-width: 768px) {
+  .introduce .row {
+    flex-direction: column;
+    align-items: center;
+  }
+  .introduce .row .col {
+    margin: 5px;
+  }
+  .introduce .row .col img {
+    width: 300px;
+  }
+}
 .about {
   border: 2px solid rgb(39, 10, 56);
   background-color: rgb(39, 10, 56);
@@ -244,6 +311,20 @@ body {
   color: #fff;
 }
 
+@media screen and (max-width: 768px) {
+  .about__text {
+    margin-left: 80px;
+    font-size: 1em;
+  }
+  .about ul {
+    margin-left: 80px;
+    font-size: 1em;
+  }
+  .about table th, .about table td {
+    font-size: 1em;
+    padding: 10px;
+  }
+}
 .portfolio {
   border: 2px solid rgb(39, 10, 56);
   background-color: rgb(39, 10, 56);

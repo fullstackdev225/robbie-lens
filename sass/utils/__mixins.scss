@@ -53,3 +53,19 @@
     margin-bottom: 3px;
     display: none;
 }
+
+@mixin mobile-only{
+    @media screen and (max-width: map-get($breakpoints, mobile)){
+        @content;
+    }
+}
+
+@mixin flexbox-responsive{
+    flex-direction: column;
+    align-items: center;
+}
+
+@mixin text-responsive{
+     margin-left: 80px;
+     font-size: 1em;
+}

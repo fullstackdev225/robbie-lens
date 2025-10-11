@@ -65,3 +65,37 @@
         }
     }
 }
+
+//responsive design...
+
+@include mobile-only{
+    .project{
+        .row{
+            @include flexbox-responsive;
+
+            .col{
+                margin: $margin-layout;
+            }
+        }
+    }
+
+    .landscape{
+        .row{
+            @include flexbox-responsive;
+
+            .col{
+                margin: $margin-layout;
+            }
+        }
+    }
+
+    .portrait{
+        .row{
+            @include flexbox-responsive;
+
+            .col{
+                margin: $margin-layout;
+            }
+        }
+    }
+}
