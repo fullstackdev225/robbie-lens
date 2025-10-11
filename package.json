@@ -1,0 +1,11 @@
+{
+  "name": "robbie-lens",
+  "version": "1.0.0",
+  "description": "Site web d'un personnage photographe fictif",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./sass/main.scss:./css/main.css"
+  },
+  "author": "",
+  "license": "ISC"
+}
