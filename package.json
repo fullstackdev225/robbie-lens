@@ -1,0 +1,12 @@
+{
+  "name": "robbie-lens",
+  "version": "1.0.0",
+  "description": "Site web d'un personnage photographe fictif",
+  "license": "ISC",
+  "author": "Charles Potey",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./sass/main.scss:./css/main.css"
+  }
+}
