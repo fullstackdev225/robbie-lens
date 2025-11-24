@@ -1,0 +1,18 @@
+.footer{
+    @include heade-foot;
+
+    &__title{
+        color: $color-secondary;
+        margin-left: 100px;
+    }
+
+    &__social{
+        float: right;
+        margin-top: -70px;
+        margin-right: 100px;
+
+        a:hover{
+            opacity: 0.8;
+        }
+    }
+}

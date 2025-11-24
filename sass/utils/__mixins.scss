@@ -1,0 +1,32 @@
+@mixin heade-foot{
+    border: 2px solid $color-primary;
+    background-color: $color-primary;
+}
+
+@mixin flexbox{
+    display: flex;
+    justify-content: center;
+}
+
+@mixin section-background($color-default: $color-secondary){
+    border: 2px solid $color-default;
+    background-color: $color-default;
+    padding: 30px;
+}
+
+@mixin button($color){
+    border: 2px solid $color;
+    background-color: $color;
+    text-transform: uppercase;
+    padding: 10px;
+    border-radius: 5px;
+    color: $color-tertiary;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 350ms;
+}
+
+@mixin button-hover($color){
+    border-color: darken($color, 10);
+    background-color: darken($color, 10);
+}

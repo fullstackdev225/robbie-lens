@@ -1,0 +1,22 @@
+.introduce{
+    @include section-background;
+
+    .row{
+        @include flexbox;
+
+        .col{
+            padding: $padding-grid;
+
+            h1{
+                font-size: $title-size;
+                color: $color-primary;
+            }
+
+            p{
+                color: $color-tertiary;
+                font-style: italic;
+                font-size: 1.2em;
+            }
+        }
+    }
+}

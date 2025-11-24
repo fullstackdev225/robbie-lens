@@ -1,3 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+body {
+  font-family: "Roboto";
+  margin: 0;
+  padding: 0;
+}
 
+.btn {
+  border: 2px solid rgb(106, 13, 206);
+  background-color: rgb(106, 13, 206);
+  text-transform: uppercase;
+  padding: 10px;
+  border-radius: 5px;
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 350ms;
+}
+.btn:hover {
+  border-color: rgb(81.3150684932, 9.9726027397, 158.0273972603);
+  background-color: rgb(81.3150684932, 9.9726027397, 158.0273972603);
+}
+
+.header {
+  border: 2px solid rgb(106, 13, 206);
+  background-color: rgb(106, 13, 206);
+}
+.header__title {
+  color: rgb(30, 5, 56);
+  margin-left: 100px;
+}
+.header .navbar {
+  float: right;
+  margin-top: -90px;
+  margin-right: 100px;
+}
+.header .navbar__nav {
+  display: flex;
+}
+.header .navbar__nav .nav__item {
+  list-style-type: none;
+}
+.header .navbar__nav .nav__item .nav__link {
+  padding: 20px 30px;
+  text-decoration: none;
+  color: #fff;
+  transition: color 250ms;
+}
+.header .navbar__nav .nav__item .nav__link:hover {
+  color: rgb(30, 5, 56);
+}
+.header .navbar__nav .nav__item .nav__link--active {
+  color: rgb(30, 5, 56);
+}
+
+.projects h1 {
+  text-align: center;
+}
+.projects .row {
+  display: flex;
+  justify-content: center;
+}
+.projects .row .col {
+  padding: 5px;
+}
+
+.form-project {
+  border: 2px solid rgb(30, 5, 56);
+  background-color: rgb(30, 5, 56);
+  padding: 30px;
+}
+.form-project h1 {
+  text-align: center;
+  color: rgb(106, 13, 206);
+}
+.form-project .form .row {
+  display: flex;
+  justify-content: center;
+}
+.form-project .form .row .col {
+  padding: 5px;
+}
+.form-project .form .row .col .form__label {
+  color: #fff;
+}
+.form-project .form .row .col .form__input {
+  outline: none;
+}
+.form-project .form .row .col .form__input:focus {
+  border: 2px solid rgb(106, 13, 206);
+}
+.form-project .form .row .col input {
+  width: 500px;
+}
+.form-project .form .row .col textarea {
+  width: 1020px;
+}
+
+.footer {
+  border: 2px solid rgb(106, 13, 206);
+  background-color: rgb(106, 13, 206);
+}
+.footer__title {
+  color: rgb(30, 5, 56);
+  margin-left: 100px;
+}
+.footer__social {
+  float: right;
+  margin-top: -70px;
+  margin-right: 100px;
+}
+.footer__social a:hover {
+  opacity: 0.8;
+}
+
+.introduce {
+  border: 2px solid rgb(30, 5, 56);
+  background-color: rgb(30, 5, 56);
+  padding: 30px;
+}
+.introduce .row {
+  display: flex;
+  justify-content: center;
+}
+.introduce .row .col {
+  padding: 5px;
+}
+.introduce .row .col h1 {
+  font-size: 3em;
+  color: rgb(106, 13, 206);
+}
+.introduce .row .col p {
+  color: #fff;
+  font-style: italic;
+  font-size: 1.2em;
+}
 
 /*# sourceMappingURL=main.css.map */
