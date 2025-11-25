@@ -64,6 +64,74 @@ body {
   padding: 5px;
 }
 
+.landscape h1 {
+  text-align: center;
+}
+.landscape .row {
+  display: flex;
+  justify-content: center;
+}
+.landscape .row .col {
+  padding: 5px;
+}
+.landscape .row .col a {
+  position: relative;
+}
+.landscape .row .col a .photo-hover {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid rgba(0, 0, 0, 0.8);
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  font-size: 1.3em;
+  margin-bottom: 3px;
+  display: none;
+  margin-top: -185px;
+}
+.landscape .row .col a:hover .photo-hover {
+  display: flex;
+}
+
+.portrait h1 {
+  text-align: center;
+}
+.portrait .row {
+  display: flex;
+  justify-content: center;
+}
+.portrait .row .col {
+  padding: 5px;
+}
+.portrait .row .col a {
+  position: relative;
+}
+.portrait .row .col a .photo-hover {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid rgba(0, 0, 0, 0.8);
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  font-size: 1.3em;
+  margin-bottom: 3px;
+  display: none;
+  margin-top: -435px;
+}
+.portrait .row .col a:hover .photo-hover {
+  display: flex;
+}
+
 .form-project {
   border: 2px solid rgb(30, 5, 56);
   background-color: rgb(30, 5, 56);
@@ -133,6 +201,51 @@ body {
   color: #fff;
   font-style: italic;
   font-size: 1.2em;
+}
+
+.about {
+  border: 2px solid rgb(30, 5, 56);
+  background-color: rgb(30, 5, 56);
+  padding: 30px;
+}
+.about__title {
+  text-align: center;
+  font-size: 3em;
+  color: rgb(106, 13, 206);
+}
+.about .about__text, .about ul {
+  margin-left: 300px;
+  font-size: 1.2em;
+  color: #fff;
+}
+.about h2 {
+  text-align: center;
+  color: #fff;
+}
+.about .link {
+  text-align: center;
+}
+.about table {
+  border-collapse: collapse;
+  margin: auto;
+  width: 100%;
+}
+.about table th, .about table td {
+  border: 2px solid #fff;
+  color: #fff;
+  font-size: 1.2em;
+  padding: 30px;
+  text-align: center;
+}
+
+.portfolio {
+  border: 2px solid rgb(30, 5, 56);
+  background-color: rgb(30, 5, 56);
+}
+.portfolio h1 {
+  margin-left: 100px;
+  font-size: 3em;
+  color: rgb(106, 13, 206);
 }
 
 /*# sourceMappingURL=main.css.map */
