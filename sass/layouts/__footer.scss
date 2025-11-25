@@ -16,3 +16,17 @@
         }
     }
 }
+
+//resposive design...
+
+@include mobile-only{
+    .footer{
+        &__title{
+            margin-left: 10px;
+        }
+
+        &__social{
+            margin-right: 10px;
+        }
+    }
+}

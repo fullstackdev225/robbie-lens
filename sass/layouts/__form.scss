@@ -36,3 +36,23 @@
         }
     }
 }
+
+//resposive design...
+
+@include mobile-only{
+    .form-project{
+        .form{
+            .row{
+                @include flexbox-grid;
+
+                .col{
+                    margin: $margin-grid;
+
+                    .form__input{
+                        width: 300px;
+                    }
+                }
+            }
+        }
+    }
+}

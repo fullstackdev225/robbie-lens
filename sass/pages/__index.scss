@@ -20,3 +20,21 @@
         }
     }
 }
+
+//responsive design...
+
+@include mobile-only{
+    .introduce{
+        .row{
+            @include flexbox-grid;
+
+            .col{
+                margin: $margin-grid;
+
+                img{
+                    width: 300px;
+                }
+            }
+        }
+    }
+}

@@ -35,3 +35,23 @@
         }
     }
 }
+
+//resposive design...
+
+@include mobile-only{
+    .header{
+
+        &__title{
+            margin-left: 10px;
+        }
+
+        .navbar{
+           margin-top: -100px;
+           margin-right: 10px;
+
+           &__nav{
+                flex-direction: column;
+           }
+        }
+    }
+}

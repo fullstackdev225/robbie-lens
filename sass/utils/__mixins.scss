@@ -47,3 +47,14 @@
     margin-bottom: 3px;
     display: none;
 }
+
+@mixin flexbox-grid{
+    flex-direction: column;
+    align-items: center;
+}
+
+@mixin mobile-only{
+    @media screen and (max-width: map-get($breakpoints, mobile)){
+        @content;
+    }
+}

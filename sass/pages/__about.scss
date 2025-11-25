@@ -40,3 +40,20 @@
         }
     }
 }
+
+
+@include mobile-only{
+    .about{
+        .about__text{
+            margin-left: 80px;
+            font-size: 1em;
+        }
+
+        table{
+            th,td{
+                padding: 10px;
+                font-size: 1em;
+            }
+        }
+    }
+}

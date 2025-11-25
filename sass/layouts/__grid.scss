@@ -65,3 +65,39 @@
         }
     }
 }
+
+//resposive design...
+
+@include mobile-only{
+    .projects{
+    .row{
+        @include flexbox-grid;
+
+        .col{
+            margin: $margin-grid;
+        }
+    }
+}
+
+
+.portrait{
+    .row{
+        @include flexbox-grid;
+
+        .col{
+            margin: $margin-grid;
+        }
+    }
+}
+
+
+.landscape{
+    .row{
+        @include flexbox-grid;
+
+        .col{
+            margin: $margin-grid;
+        }
+    }
+}
+}
