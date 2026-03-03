@@ -1,0 +1,42 @@
+.about{
+    @include sectionBackground;
+
+    &__title{
+        text-align: center;
+        font-size: $titleSize;
+        color: $colorPrimary;
+    }
+
+    .about__text{
+        margin-left: 300px;
+        color: $colorTertiary;
+        font-size: 1.2em;
+    }
+
+    ul{
+        @extend .about__text;
+    }
+
+    h2{
+        text-align: center;
+        color: $colorTertiary;
+    }
+
+    &__link{
+        text-align: center;
+    }
+
+    table{
+        border-collapse: collapse;
+        width: 100%;
+        margin: auto;
+
+        th,td{
+            border: 2px solid $colorTertiary;
+            color: $colorTertiary;
+            font-size: 1.3em;
+            text-align: center;
+            padding: 60px;
+        }
+    }
+}

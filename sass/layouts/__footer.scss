@@ -1,0 +1,22 @@
+.footer{
+    @include headFootStyle;
+
+    &__title{
+        margin-left: 100px;
+
+        a{
+            text-decoration: none;
+            color: $colorSecondary;
+        }
+    }
+
+    &__social{
+        float: right;
+        margin-top: -70px;
+        margin-right: 100px;
+
+        a:hover{
+            opacity: 0.8;
+        }
+    }
+}

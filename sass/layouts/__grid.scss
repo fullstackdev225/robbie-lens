@@ -1,0 +1,69 @@
+.project{
+    &__title{
+        text-align: center;
+    }
+
+    .row{
+        @include flexbox;
+
+        .col{
+            padding: $paddingGrid;
+        }
+    }
+}
+
+
+.landscape{
+    h1{
+        text-align: center;
+    }
+
+    .row{
+        @include flexbox;
+
+        .col{
+            padding: $paddingGrid;
+
+            a{
+                position: relative;
+
+                .photo-hover{
+                    @include photoHover;
+                    margin-top: -318px;
+                }
+
+                &:hover .photo-hover{
+                    display: flex;
+                }
+            }
+        }
+    }
+}
+
+
+.portrait{
+    h1{
+        text-align: center;
+    }
+
+    .row{
+        @include flexbox;
+
+        .col{
+            padding: $paddingGrid;
+
+            a{
+                position: relative;
+
+                .photo-hover{
+                    @include photoHover;
+                    margin-top: -735px;
+                }
+
+                &:hover .photo-hover{
+                    display: flex;
+                }
+            }
+        }
+    }
+}

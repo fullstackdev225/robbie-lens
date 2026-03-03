@@ -1,0 +1,7 @@
+.btn{
+    @include buttonStyle;
+
+    &:hover{
+        @include buttonHover($colorPrimary);
+    }
+}

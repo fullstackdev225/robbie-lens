@@ -1,0 +1,49 @@
+@mixin headFootStyle{
+    border: 2px solid $colorPrimary;
+    background-color: $colorPrimary;
+}
+
+@mixin sectionBackground{
+    border: 2px solid $colorSecondary;
+    background-color: $colorSecondary;
+    padding: 30px;
+}
+
+@mixin flexbox{
+    display: flex;
+    justify-content: center;
+}
+
+@mixin buttonStyle($colorDefault: $colorPrimary){
+    border: 2px solid $colorDefault;
+    background-color: $colorDefault;
+    color: $colorTertiary;
+    text-transform: uppercase;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 5px;
+    transition: all 350ms;
+}
+
+@mixin buttonHover($color){
+    border-color: darken($color, 10);
+    background-color: darken($color, 10);
+}
+
+@mixin photoHover{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border: 2px solid rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: $colorTertiary;
+    font-size: 2em;
+    margin-bottom: 3px;
+    display: none;
+}

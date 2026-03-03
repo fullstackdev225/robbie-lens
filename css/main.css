@@ -1,3 +1,256 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto";
+}
 
+.btn {
+  border: 2px solid rgb(17, 110, 203);
+  background-color: rgb(17, 110, 203);
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 5px;
+  transition: all 350ms;
+}
+.btn:hover {
+  border-color: rgb(13.0590909091, 84.5, 155.9409090909);
+  background-color: rgb(13.0590909091, 84.5, 155.9409090909);
+}
+
+.header {
+  border: 2px solid rgb(17, 110, 203);
+  background-color: rgb(17, 110, 203);
+}
+.header__title {
+  margin-left: 100px;
+}
+.header__title a {
+  color: rgb(7, 17, 57);
+  text-decoration: none;
+}
+.header .navbar {
+  float: right;
+  margin-top: -90px;
+  margin-right: 100px;
+}
+.header .navbar__nav {
+  display: flex;
+}
+.header .navbar__nav .nav__item {
+  list-style-type: none;
+}
+.header .navbar__nav .nav__item .nav__link {
+  padding: 20px 30px;
+  text-decoration: none;
+  color: #fff;
+  transition: color 250ms;
+}
+.header .navbar__nav .nav__item .nav__link:hover {
+  color: rgb(7, 17, 57);
+}
+.header .navbar__nav .nav__item .nav__link--active {
+  color: rgb(7, 17, 57);
+}
+
+.footer {
+  border: 2px solid rgb(17, 110, 203);
+  background-color: rgb(17, 110, 203);
+}
+.footer__title {
+  margin-left: 100px;
+}
+.footer__title a {
+  text-decoration: none;
+  color: rgb(7, 17, 57);
+}
+.footer__social {
+  float: right;
+  margin-top: -70px;
+  margin-right: 100px;
+}
+.footer__social a:hover {
+  opacity: 0.8;
+}
+
+.project__title {
+  text-align: center;
+}
+.project .row {
+  display: flex;
+  justify-content: center;
+}
+.project .row .col {
+  padding: 5px;
+}
+
+.landscape h1 {
+  text-align: center;
+}
+.landscape .row {
+  display: flex;
+  justify-content: center;
+}
+.landscape .row .col {
+  padding: 5px;
+}
+.landscape .row .col a {
+  position: relative;
+}
+.landscape .row .col a .photo-hover {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  border: 2px solid rgba(0, 0, 0, 0.8);
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 2em;
+  margin-bottom: 3px;
+  display: none;
+  margin-top: -318px;
+}
+.landscape .row .col a:hover .photo-hover {
+  display: flex;
+}
+
+.portrait h1 {
+  text-align: center;
+}
+.portrait .row {
+  display: flex;
+  justify-content: center;
+}
+.portrait .row .col {
+  padding: 5px;
+}
+.portrait .row .col a {
+  position: relative;
+}
+.portrait .row .col a .photo-hover {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  border: 2px solid rgba(0, 0, 0, 0.8);
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 2em;
+  margin-bottom: 3px;
+  display: none;
+  margin-top: -735px;
+}
+.portrait .row .col a:hover .photo-hover {
+  display: flex;
+}
+
+.project-form {
+  border: 2px solid rgb(7, 17, 57);
+  background-color: rgb(7, 17, 57);
+  padding: 30px;
+}
+.project-form h1 {
+  text-align: center;
+  color: rgb(17, 110, 203);
+}
+.project-form .form .row {
+  display: flex;
+  justify-content: center;
+}
+.project-form .form .row .col {
+  padding: 5px;
+}
+.project-form .form .row .col .form__label {
+  color: #fff;
+}
+.project-form .form .row .col input {
+  width: 500px;
+}
+.project-form .form .row .col textarea {
+  width: 1020px;
+}
+.project-form .form .row .col .form__input {
+  outline: none;
+}
+.project-form .form .row .col .form__input:focus {
+  border: 2px solid rgb(17, 110, 203);
+}
+
+.introduce {
+  border: 2px solid rgb(7, 17, 57);
+  background-color: rgb(7, 17, 57);
+  padding: 30px;
+}
+.introduce .row {
+  display: flex;
+  justify-content: center;
+}
+.introduce .row .col {
+  padding: 5px;
+}
+.introduce .row .col h1 {
+  color: rgb(17, 110, 203);
+  font-size: 3em;
+}
+.introduce .row .col p {
+  color: #fff;
+  font-size: 1.1em;
+}
+
+.about {
+  border: 2px solid rgb(7, 17, 57);
+  background-color: rgb(7, 17, 57);
+  padding: 30px;
+}
+.about__title {
+  text-align: center;
+  font-size: 3em;
+  color: rgb(17, 110, 203);
+}
+.about .about__text, .about ul {
+  margin-left: 300px;
+  color: #fff;
+  font-size: 1.2em;
+}
+.about h2 {
+  text-align: center;
+  color: #fff;
+}
+.about__link {
+  text-align: center;
+}
+.about table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: auto;
+}
+.about table th, .about table td {
+  border: 2px solid #fff;
+  color: #fff;
+  font-size: 1.3em;
+  text-align: center;
+  padding: 60px;
+}
+
+.portfolio {
+  border: 2px solid rgb(7, 17, 57);
+  background-color: rgb(7, 17, 57);
+}
+.portfolio h1 {
+  margin-left: 100px;
+  color: rgb(17, 110, 203);
+  font-size: 3em;
+}
 
 /*# sourceMappingURL=main.css.map */

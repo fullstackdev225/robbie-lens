@@ -1,0 +1,21 @@
+.introduce{
+    @include sectionBackground;
+
+    .row{
+        @include flexbox;
+
+        .col{
+            padding: $paddingGrid;
+
+            h1{
+                color: $colorPrimary;
+                font-size: $titleSize;
+            }
+
+            p{
+                color: $colorTertiary;
+                font-size: 1.1em;
+            }
+        }
+    }
+}
