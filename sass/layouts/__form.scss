@@ -36,3 +36,22 @@
         }
     }
 }
+
+//responsive design...
+@include mobileOnly{
+    .project-form{
+        .form{
+            .row{
+                @include flexboxGrid;
+
+                .col{
+                    margin: $marginGrid;
+
+                    .form__input{
+                        width: 300px;
+                    }
+                }
+            }
+        }
+    }
+}

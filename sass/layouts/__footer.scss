@@ -20,3 +20,16 @@
         }
     }
 }
+
+//responsive design...
+@include mobileOnly{
+    .footer{
+        &__title{
+            margin-left: 20px;
+        }
+
+        &__social{
+            margin-right: 20px;
+        }
+    }
+}

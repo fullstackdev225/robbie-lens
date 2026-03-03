@@ -67,3 +67,46 @@
         }
     }
 }
+
+//responsive design...
+@include mobileOnly{
+    .project{
+        .row{
+            @include flexboxGrid;
+
+            .col{
+                margin: $marginGrid;
+            }
+        }
+    }
+
+    .landscape{
+        .row{
+            @include flexboxGrid;
+
+            .col{
+                margin: $marginGrid;
+
+                img{
+                    width: 350px;
+                    height: 200px
+                }
+            }
+        }
+    }
+
+     .portrait{
+        .row{
+            @include flexboxGrid;
+
+            .col{
+                margin: $marginGrid;
+
+                img{
+                    width: 350px;
+                    height: 450px;
+                }
+            }
+        }
+    }
+}

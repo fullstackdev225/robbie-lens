@@ -40,3 +40,20 @@
         }
     }
 }
+
+//responsive design...
+@include mobileOnly{
+    .about{
+        .about__text{
+            margin-left: 80px;
+            font-size: 1em;
+        }
+
+        table{
+            th,td{
+                font-size: 1em;
+                padding: 15px;
+            }
+        }
+    }
+}
