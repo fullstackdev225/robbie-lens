@@ -1,0 +1,43 @@
+/* portfolio section */
+
+.portfolio-section{
+    border: 2px solid rgb(33, 5, 58);
+    background-color: rgb(33, 5, 58);
+}
+
+.portfolio-section h1{
+    margin-left: 100px;
+    font-size: 3em;
+    color: rgb(101, 10, 186);
+}
+
+/* ladnscape images */
+
+.landscape-images h1{
+    text-align: center;
+}
+
+.landscape-images .row{
+    display: flex;
+    justify-content: center;
+}
+
+.landscape-images .col{
+    padding: 5px;
+}
+
+
+/* portrait images */
+
+.portrait-images h1{
+    text-align: center;
+}
+
+.portrait-images .row{
+    display: flex;
+    justify-content: center;
+}
+
+.portrait-images .col{
+    padding: 5px;
+}
