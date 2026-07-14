@@ -1,0 +1,30 @@
+.footer{
+    border: 2px solid rgb(101, 10, 186);
+    background-color: rgb(101, 10, 186);
+    padding: 20px;
+}
+
+.footer .footer-icon{
+    margin-left: 100px;
+}
+
+.footer .footer-icon a{
+    text-decoration: none;
+    font-size: 1.5em;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.footer .footer-icon span{
+    border: 2px solid rgb(33, 5, 58);
+    background-color: rgb(33, 5, 58);
+    padding: 2px;
+    border-radius: 5px;
+}
+
+.footer .footer-social{
+    float: right;
+    margin-top: -25px;
+    margin-right: 100px;
+}
