@@ -26,6 +26,19 @@
     padding: 5px;
 }
 
+.landscape-images a{
+    position: relative;
+}
+
+.landscape-images .text-over{
+    margin-top: -320px;
+    margin-bottom: 3px;
+}
+
+.landscape-images a:hover .text-over{
+    display: flex;
+}
+
 
 /* portrait images */
 
@@ -40,4 +53,17 @@
 
 .portrait-images .col{
     padding: 5px;
+}
+
+.portrait-images a{
+    position: relative;
+}
+
+.portrait-images .text-over{
+    margin-top: -735px;
+    margin-bottom: 3px;
+}
+
+.portrait-images a:hover .text-over{
+    display: flex;
 }
