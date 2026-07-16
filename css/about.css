@@ -44,3 +44,22 @@
     font-size: 1.3em;
     text-align: center;
 }
+
+/* responsive design */
+
+@media screen and (max-width: 768px) {
+    .about-section .text{
+        margin-left: 80px;
+        font-size: 1em;
+    }
+
+    .about-section ul{
+        margin-left: 80px;
+        font-size: 1em;
+    }
+
+    .about-section th,td{
+        padding: 15px;
+        font-size: 1em;
+    }
+}

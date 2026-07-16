@@ -51,3 +51,20 @@
 .header .menu-link:hover{
     color: rgb(33, 5, 58);
 }
+
+/* responsive design */
+
+@media screen and (max-width: 768px) {
+    .header .header-icon{
+        margin-left: 15px;
+    }
+
+    .header .menu{
+        margin-right: 15px;
+        margin-top: -55px;
+    }
+
+    .header ul{
+        flex-direction: column;
+    }
+}

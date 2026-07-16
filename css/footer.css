@@ -28,3 +28,15 @@
     margin-top: -25px;
     margin-right: 100px;
 }
+
+/* responsive design */
+
+@media screen and (max-width: 768px) {
+    .footer .footer-icon{
+        margin-left: 15px;
+    }
+
+    .footer .footer-social{
+        margin-right: 15px;
+    }
+}

@@ -67,3 +67,39 @@
 .portrait-images a:hover .text-over{
     display: flex;
 }
+
+/* responsive design */
+
+@media screen and (max-width: 768px) {
+    /* landscape images */
+
+    .landscape-images .row{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .landscape-images .col{
+        margin: 8px;
+    }
+
+    .landscape-images img{
+        width: 350px;
+        height: 350px;
+    }
+
+    /* portrait images */ 
+    
+    .portrait-images .row{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .portfolio-images .col{
+        margin: 8px;
+    }
+
+    .portrait-images img{
+        width: 350px;
+        height:400px;
+    }
+}
